@@ -1,0 +1,137 @@
+.center {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 200px; 
+}
+
+.signHeading {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-family:'Roboto';
+    font-size: 55px;
+}
+header h1 {
+    color: #333333;
+    text-align: center;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+footer {
+    background-color: #8c8c8c;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+header {
+    background-color: #8c8c8c;
+    height: 75px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+
+.emailEntry{
+    margin: 10px;
+    width: 35%;
+
+}
+.passwordEntry{
+    width: 35%;
+    margin-bottom:10px;
+}
+
+.signBtn{
+    margin-top: 20px;
+    width:8%;
+    width: 20%; max-width: 500px;
+}
+
+.addBtn{
+    margin-top: 20px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBtn .btn {
+    background-color: #757575;
+}
+.dropdown-menu {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropDwn::-webkit-scrollbar {
+  display: none;
+}
+
+.activated{
+  color: black;
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 5px;
+  width: 250px;
+  height: 150px;
+  margin: 16px;
+  float: left;
+}
+.timer h1 {
+  margin-right: 0px;
+  font-size: 50px;
+  margin-bottom: 6px;
+}
+.timer input {
+  margin-top: 15px;
+  margin-left: 50px;
+  padding: 5px;
+    font-size: 30px;
+  margin-bottom: 10px;}
+
+  .timerHeading {
+    display: flex;
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+  }
+
+
+.headingMargin{
+  margin-right:200px;
+}
+.form-check{
+  margin-left: 50px;
+}
+
+.SignOut{
+  margin-top: 5px;
+  background-color:#757575;
+  color:white
+}
+
+.emailPassExists {
+  margin-left: 33%;
+  margin-bottom: 5px;
+}
+.deleteButton {
+  margin-top:10px;
+  margin-left: 25%;
+  width: 50%;
+  background-color: #7a7a7a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #4f4f4f;
+}
